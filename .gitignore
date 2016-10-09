@@ -2,5 +2,6 @@ dist/
 node_modules/
 .swp
 .swo
+npm-debug.log
 
 
