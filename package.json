@@ -1,0 +1,23 @@
+{
+  "name": "react-typescript",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dist": "mkdir -p dist/js && cp node_modules/react/dist/*.min.js dist/js/ && cp node_modules/react-dom/dist/react-dom*min.js dist/js/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^0.14.39",
+    "@types/react-dom": "^0.14.17",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
